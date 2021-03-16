@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class CalculationService implements ICalculationService {
+public class CalculationServiceImpl implements ICalculationService {
 
 
     @Override
