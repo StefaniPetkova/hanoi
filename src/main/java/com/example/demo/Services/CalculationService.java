@@ -12,8 +12,7 @@ public class CalculationService implements ICalculationService {
     @Override
     public List<String> calculate(int disks, char fromRod, char toRod, char auxRod) {
         List<String> steps = new ArrayList<>();
-        if (disks == 1)
-        {
+        if (disks == 1) {
             steps.add("Move disk 1 from rod " + fromRod + " to rod " + toRod);
             return steps;
         }
